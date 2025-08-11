@@ -10,3 +10,9 @@ def factorial(value):
         return 1
     else:
         return value * factorial(value - 1)
+
+def is_even(n):
+    if n%2 == 1:
+        return True
+    else:
+        return False

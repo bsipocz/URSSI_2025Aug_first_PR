@@ -6,6 +6,7 @@ def fibonacci(max):
 
 
 def factorial(value):
+    """Returns the factorial of a given number."""
     if value == 0:
         return 1
     else:

@@ -1,13 +1,34 @@
-Ok so I guess you are reading this cuz you wanna use my code. There are some
-functions that do stuf and thats:
+# 2025 URSSI Code School, Fairbanks, AK
+# Updated by JiaJia Fu
+# August 11th, 2025
 
-    >>> from simple_functions import factorial
-    >>> factorial(10)
-    9
+This repository has 2 functions stored in the simple_functions helper function file. 
 
-and this other part does something.  I forget why that I did it:
+1. factorial(int) 
 
-    >>> fibonnaccci(100)
-    [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
+Input: integer
+Function: calculates the factorial of the input integer
+Output: integer 
 
-If you can't use it, its kind of your problem, not mine!
+2. ficonnacci(int)
+
+Input: integer
+Function: calculates the Fibbonacci sequence terminating before the input integer
+Output: list of integers which follow the Fibbonnacci sequence 
+
+Call the function in the following manner:
+	from simple_functions import factorial
+	factorial(10)
+	fibonnaccci(100)
+
+
+
+
+
+
+
+
+
+
+
+Bazinga

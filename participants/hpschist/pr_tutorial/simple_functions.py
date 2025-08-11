@@ -11,11 +11,9 @@ def factorial(value):
     else:
         return value * factorial(value - 1)
 
-def isprime(n):
-    if n < 2:
-        return False
-    for divisor in range(2, int(math.sqrt(n)) + 1):
-        if n % divisor == 0:
+def isPrime(n):
+    for i in range(2,int(n**0.5)+1):
+        if n%i==0:
             return False
-    else:
-        return True
+        
+    return True

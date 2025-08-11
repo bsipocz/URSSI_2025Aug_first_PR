@@ -1,5 +1,4 @@
-Ok so I guess you are reading this cuz you wanna use my code. There are some
-functions that do stuf and thats:
+This is a test package that does stuff so nevermind what is written here.
 
     >>> from simple_functions import factorial
     >>> factorial(10)

@@ -1,12 +1,7 @@
-def fibonacci(max):
-    values = [0, 1]
-    while values[-2] + values[-1] < max:
-        values.append(values[-2] + values[-1])
-    return values
 
+def fibonacci(min_value):
+    a, b = 0, 1
+    while b < min_value:
+        a, b = b, a + b
+    return b
 
-def factorial(value):
-    if value == 0:
-        return 1
-    else:
-        return value * factorial(value - 1)

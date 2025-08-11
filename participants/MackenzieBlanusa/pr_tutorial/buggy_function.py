@@ -1,5 +1,6 @@
 import math
 
+# fixed buggy function 
 
 def angle_to_sexigesimal(angle_in_degrees, decimals=3):
     """

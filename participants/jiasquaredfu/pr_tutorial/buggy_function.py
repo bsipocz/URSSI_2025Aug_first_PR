@@ -20,7 +20,7 @@ def angle_to_sexigesimal(angle_in_degrees, decimals=3):
     if math.floor(decimals) != decimals:
         raise OSError('decimals should be an integer!')
 
-    hours_num = angle_in_degrees*24/180
+    hours_num = angle_in_degrees*24/360
     hours = math.floor(hours_num)
 
     min_num = (hours_num - hours)*60
@@ -30,3 +30,11 @@ def angle_to_sexigesimal(angle_in_degrees, decimals=3):
 
     format_string = '{}:{}:{:.' + str(decimals) + 'f}'
     return format_string.format(hours, minutes, seconds)
+
+
+ans=angle_to_sexigesimal(60)
+print(ans)
+ans2=angle_to_sexigesimal(180)
+print(ans2)
+
+

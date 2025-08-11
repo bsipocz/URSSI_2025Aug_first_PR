@@ -6,7 +6,17 @@ def fibonacci(max):
 
 
 def factorial(value):
-    if value == 0:
+    if value in (0,1):
         return 1
-    else:
-        return value * factorial(value - 1)
+    
+    return value * factorial(value - 1)
+
+import math
+def _is_prime(value):
+	if value<=1:
+		return False
+	for i in range(2,int(math.sqrt(value) +1)):
+		if value % i == 0:
+			return False
+	return True
+

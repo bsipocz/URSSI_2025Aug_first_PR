@@ -1,6 +1,6 @@
 The code block below demonstrates an example for computing the factorial of 10.
 In your hands, the factorial of 10 should return
-3628800
+3628800:
 
     >>> from simple_functions import factorial
     >>> factorial(10)

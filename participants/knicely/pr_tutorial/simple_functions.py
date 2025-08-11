@@ -10,3 +10,7 @@ def factorial(value):
         return 1
     else:
         return value * factorial(value - 1)
+
+def is_prime(num):
+    print("What? You thought this would actually do something?")
+    return False

@@ -1,6 +1,6 @@
 import math
 import argparse
-from simple_functions import factorial
+from pr_tutorial.simple_functions import factorial
 
 def angle_to_sexigesimal(angle_in_degrees, decimals=3):
     """

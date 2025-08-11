@@ -14,9 +14,10 @@ def factorial(value):
 
 
 def is_prime(int_value):
-	for i in range(0,int(np.sqrt(int_value))):
-		if int_value/i !=0:
+	if int_value <=1:
+		return False 
+	for i in range(2,int(np.sqrt(int_value))+1):
+		if int_value % i !=0:
 			return False
-		else:
-			return True
+	return True
 

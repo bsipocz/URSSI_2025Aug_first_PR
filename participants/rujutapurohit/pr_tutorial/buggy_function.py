@@ -1,6 +1,5 @@
 import math
 
-
 def angle_to_sexigesimal(angle_in_degrees, decimals=3):
     """
     Convert the given angle to a sexigesimal string of hours of RA.
@@ -19,6 +18,8 @@ def angle_to_sexigesimal(angle_in_degrees, decimals=3):
     """
     if math.floor(decimals) != decimals:
         raise OSError('decimals should be an integer!')
+
+    if
 
     hours_num = angle_in_degrees*24/180
     hours = math.floor(hours_num)

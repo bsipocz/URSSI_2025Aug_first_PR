@@ -16,14 +16,13 @@ def factorial(value):
 def is_prime(n: int) -> bool:
     """
     Return whether the input positive integer is prime
-    Note 1 is considered prime
     Parameter:
         n - Positive integer
     Returns:
         True if n is prime, False otherwise
     """
     if n <= 1:
-        return n==1
+        return False
     nrt = sqrt(n)
     # check if n is a square number
     if nrt==ceil(nrt):

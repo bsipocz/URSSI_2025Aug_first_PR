@@ -7,7 +7,7 @@ The simple_functions module contains some basic mathematical functions as descri
 All functions can be imported as the following:
     >>> from simple_functions import factorial
     >>> factorial(10)
-    9
+    3628800
 
 ### factorial
 

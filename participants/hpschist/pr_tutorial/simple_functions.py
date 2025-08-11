@@ -10,3 +10,12 @@ def factorial(value):
         return 1
     else:
         return value * factorial(value - 1)
+
+def isprime(n):
+    if n < 2:
+        return False
+    for divisor in range(2, int(math.sqrt(n)) + 1):
+        if n % divisor == 0:
+            return False
+    else:
+        return True

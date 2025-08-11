@@ -10,3 +10,10 @@ def factorial(value):
         return 1
     else:
         return value * factorial(value - 1)
+    
+# Add a new function in simple_functions.py called is_prime that takes an integer number and returns True if the number is prime, and False if not.
+def is_prime(num: int) -> bool:
+    if num % 2 != 1:
+        return True
+    else:
+        return False

@@ -10,3 +10,13 @@ def factorial(value):
         return 1
     else:
         return value * factorial(value - 1)
+
+import sympy
+
+def prime(value):
+
+    if sympy.isprime(value) == True:	
+	return print('True')
+
+    else: 
+	return print('Not a prime number')

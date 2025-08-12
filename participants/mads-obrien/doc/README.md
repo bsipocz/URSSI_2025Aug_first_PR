@@ -10,4 +10,4 @@ and this other part does something.  I forget why that I did it:
     >>> fibonnaccci(100)
     [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89]
 
-If you can't use it, its kind of your problem, not mine!
+If you encounter any issues with the repository, please contact the maintainers.

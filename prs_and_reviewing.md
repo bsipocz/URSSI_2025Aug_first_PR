@@ -279,6 +279,11 @@ whether you feel the code is ready to be accepted or not.  If you don't feel rea
 firm either way, or you expect the PR to go through multiple review cycles you can always just leave
 your review as a comment, which is a more neutral ground between requesting for changes and accepting the pull request.
 
+More resources and exercises:
+
+The [Code-Review](https://code-review.org/) project has nicely set up review specific exercises, both for Python and Fortran. 
+I would recommend to check it out.
+
 ## Problem 3: Making additional changes
 
 If someone comments on your pull request and you decide to follow their recommendations, you can add

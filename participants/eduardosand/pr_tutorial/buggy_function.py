@@ -1,5 +1,6 @@
 import math
-
+import argparse
+from pr_tutorial.simple_functions import factorial
 
 def angle_to_sexigesimal(angle_in_degrees, decimals=3):
     """
@@ -30,3 +31,24 @@ def angle_to_sexigesimal(angle_in_degrees, decimals=3):
 
     format_string = '{}:{}:{:.' + str(decimals) + 'f}'
     return format_string.format(hours, minutes, seconds)
+
+
+def main():
+    # Create the parser
+    parser = argparse.ArgumentParser(description='Parsing Behavior.')
+
+    # Add arguments
+    # Required argument
+    parser.add_argument('angle_in_degrees', help='String of angle in degrees')
+    parser.add_argument('decimals', help='Number of decimals in string')
+
+    # Parse the arguments
+    args = parser.parse_args()
+    angle_in_degrees = float(args.angle_in_degrees)
+    decimals = int(args.decimals)
+    stringy = angle_to_sexigesimal(angle_in_degrees, decimals)
+
+    print(stringy)
+
+if __name__ == "__main__":
+    main()

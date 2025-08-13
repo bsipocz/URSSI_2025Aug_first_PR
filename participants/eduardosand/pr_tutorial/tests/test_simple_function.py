@@ -5,3 +5,4 @@ def test_factorial_3():
     """Simplest test for one crete case"""
 
     assert factorial(3) == 6
+    assert factorial(4) == 24

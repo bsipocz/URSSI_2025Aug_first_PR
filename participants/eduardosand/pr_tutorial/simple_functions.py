@@ -6,7 +6,16 @@ def fibonacci(max):
 
 
 def factorial(value):
+    """
+    Return the factorial of a function. Has to be an integer.
+    :param value: (float)
+    :return: factorial of the value
+    """
+    assert type(value) == int
     if value == 0:
         return 1
     else:
-        return value * factorial(value - 1)
+        running_value = 1
+        for i in range(int(value)):
+            running_value *= value-i
+        return running_value

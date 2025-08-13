@@ -1,9 +1,11 @@
 Ok so I guess you are reading this cuz you wanna use my code. There are some
-functions that do stuf and thats:
+functions that do stuff and thats- Carolien edited this on 8/11/2025
 
     >>> from simple_functions import factorial
     >>> factorial(10)
     9
+    
+
 
 and this other part does something.  I forget why that I did it:
 

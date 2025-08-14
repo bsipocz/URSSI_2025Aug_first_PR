@@ -4,6 +4,10 @@ def fibonacci(max):
         values.append(values[-2] + values[-1])
     return values
 
+def is_even(n):
+	if n%2 == 1:
+		return True
+	
 
 def factorial(value):
     if value == 0:
